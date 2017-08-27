@@ -7,13 +7,37 @@
 		h1{
 			color: red;
 			text-align: center;
+			font-weight: bold;
 		}
 		body{
 			background-color: rgb(244, 244, 117);
 			font-family: monospace;
 		}
 		a{
+			width: 6em;
 			text-decoration: none;
+			color: white;
+			background: purple;
+			padding: 0.2em 0.6em;
+			border-right: 1px solid white;
+		}
+		a:hover{
+			background-color: rgb(140, 66, 244); 
+		}
+		li{
+			display: inline;
+		}
+		#page-container{
+			width: 760px;
+			margin: auto;
+		}
+		#main-nav{
+			width: 760px;
+			height: 50px;
+		}
+		#header{
+            width: 760px;
+			height: 50px;
 		}
 		#biography{
 			background: grey;
@@ -23,24 +47,26 @@
 			border: 5px dashed;
 			float: right;
 		}
-		#susan{
-			width: 200px;
-			height: 200px;
-			margin: auto;
-			float: left;
-			padding: 20px;
-			
+		#content{
+			width: 480px;
+		}
+		#footer{
+            width: 760px;
+            height: 66px;
 		}
 	</style>
 </head>
 <body>
 <h1>Hello!!! This is Susan...</h1>
-<ol>
+<div id="main-nav">
+<ul class="menu">
 	<li><a href="#about-me">About me</a></li>
 	<li><a href="#edu">Education</a></li>
 	<li> <a href="#exp">Experience</a></li>
 	<li><a href="#interest">Interest</a></li>
-</ol>
+</ul>
+</div>
+<div id="header">Header</div>
 <div id="biography">
 <h2 id="about-me">About me</h2>
 <ul>
@@ -61,5 +87,7 @@
 <h2 id="interest">Interest</h2>
 <p>[Updating]</p>
 </div>
+<div id="content"></div>
+<div id="footer"></div>
 </body>
 </html>
