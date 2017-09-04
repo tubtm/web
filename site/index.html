@@ -3,70 +3,24 @@
 <head>
 <meta charset="utf-8">
 	<title>Hello World</title>
-	<style type="text/css">
-		h1{
-			color: red;
-			text-align: center;
-			font-weight: bold;
-		}
-		body{
-			background-color: rgb(244, 244, 117);
-			font-family: monospace;
-		}
-		a{
-			width: 6em;
-			text-decoration: none;
-			color: white;
-			background: purple;
-			padding: 0.2em 0.6em;
-			border-right: 1px solid white;
-		}
-		a:hover{
-			background-color: rgb(140, 66, 244); 
-		}
-		li{
-			display: inline;
-		}
-		#page-container{
-			width: 760px;
-			margin: auto;
-		}
-		#main-nav{
-			width: 760px;
-			height: 50px;
-		}
-		#header{
-            width: 760px;
-			height: 50px;
-		}
-		#biography{
-			background: grey;
-			width: 30%;
-			height: 400px;
-			overflow: auto;
-			border: 5px dashed;
-			float: right;
-		}
-		#content{
-			width: 480px;
-		}
-		#footer{
-            width: 760px;
-            height: 66px;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<h1>Hello!!! This is Susan...</h1>
-<div id="main-nav">
-<ul class="menu">
+<script scr="js/jquery-3.2.1.min.js"></script>
+<script scr="js/bootstrap.min.js"></script>
+<script scr="js/script.js"></script>
+<header>
+	<nav id = "main-nav" class="navbar navbar-default">
+		<ul class="menu">
 	<li><a href="#about-me">About me</a></li>
 	<li><a href="#edu">Education</a></li>
 	<li> <a href="#exp">Experience</a></li>
 	<li><a href="#interest">Interest</a></li>
-</ul>
-</div>
-<div id="header">Header</div>
+        </ul>
+	</nav>
+</header>
+<h1>Hello!!! This is Susan...</h1>
 <div id="biography">
 <h2 id="about-me">About me</h2>
 <ul>
