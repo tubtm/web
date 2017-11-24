@@ -1,0 +1,45 @@
+        h1{
+			color: red;
+			text-align: center;
+			font-weight: bold;
+		}
+		body{
+			background-color: rgb(244, 244, 117);
+			font-family: monospace;
+		}
+		a{
+			width: 6em;
+			text-decoration: none;
+			color: white;
+			background: purple;
+			padding: 0.2em 0.6em;
+			border-right: 1px solid white;
+		}
+		a:hover{
+			background-color: rgb(140, 66, 244); 
+		}
+		li{
+			display: inline;
+		}
+		#page-container{
+		}
+		#main-nav{
+			background-color: #f6b319;
+			border-radius: 0;
+			border: 0;
+		}
+        #logo-img{
+        	background: url("https://logopond.com/assets/img/logo-footer.png") no-repeat;
+        	width: 150px;
+        	height: 150px;
+        	margin: 10px 15px 10px 0;
+        }
+		#biography{
+			background: grey;
+			width: 30%;
+			height: 400px;
+			overflow: auto;
+			border: 5px dashed;
+			float: right;
+		}
+		
