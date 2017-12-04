@@ -2,29 +2,116 @@
 <html>
 <head>
 <meta charset="utf-8">
-	<title>Hello World</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>This is Susan</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<!-- <script scr="js/jquery-3.2.1.min.js"></script>
+<script scr="js/jquery-3.2.1.min.js"></script>
 <script scr="js/bootstrap.min.js"></script>
-<script scr="js/script.js"></script> -->
+<script scr="js/script.js"></script>
 <header>
-	<nav id = "main-nav" class="navbar navbar-default">
-	    <a href="index.html" class="">
-	    	<div id="logo-img" alt="ypa"></div>
-	    </a>
-		<ul class="menu">
-		     <li><a href="#about-me">About me</a></li>
-	         <li><a href="#edu">Education</a></li>
-	         <li> <a href="#exp">Experience</a></li>
-	         <li><a href="#interest">Interest</a></li>
-        </ul>
-	</nav>
+<nav id="header-nav" class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a href="index.html" class="pull-left visible-md visible-lg">
+      	<div id="logo-img" alt="Logo image"></div>
+      </a>
+      <div class="navbar-brand">
+      	<a href="index.html">This is Susan</a>
+      </div>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>  
+    <div id="collapsable-nav" class="collapse navbar-collapse">
+      <ul id="nav-list" class="nav navbar-nav navbar-right">
+        <li>
+        	<a href="profile.html"><span class="glyphicon glyphicon-user"></span><br class="hidden-xs">About</a>
+        </li>
+        <li>
+        	<a href="info.html"><span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">Information</a>
+        </li>
+        <li>
+        	<a href="contact.html"><span class="glyphicon glyphicon-inbox"></span><br class="hidden-xs">Contact</a>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    <!--<ul class="nav navbar-nav">
+      <li><a href="#about-me">About me</a></li>
+	  <li><a href="#edu">Education</a></li>
+	  <li> <a href="#exp">Experience</a></li>
+	  <li><a href="#interest">Interest</a></li>
+    </ul>
+  </div>
+-->
+  </div>
+</nav>
 </header>
-<h1>Hello!!! This is Susan...</h1>
-<div id="biography">
+
+<div id="main-content" class="container">
+	<div class="jumbotron">
+		 <img src="jumbotron-768.jpg" alt="Picture" class="img-responsive visible-xs"> 
+	</div>
+	<div id="home-tiles" class="row">
+         <div class="col-md-4 col-sm-6 col-xs-12">
+         	<a href="digimar.html">
+         		<div id="digi-mar">
+         			<span>Digital Marketing</span>
+         		</div>
+         	</a>
+         </div>	
+         <div class="col-md-4 col-sm-6 col-xs-12">
+         	<a href="datasci.html">
+         		<div id="data-sci">
+         			<span>Data Science</span>
+         		</div>
+         	</a>
+         </div>	
+         <!--<div class="col-md-4 col-sm-6 col-xs-12">
+         	<a href="thoughts.html">
+         		<div id="thoughts">
+         			<span>Thoughts</span>
+         		</div>
+         	</a>
+         </div>
+        -->
+         <div class="col-md-4 col-sm-6 col-xs-12">
+         	<a href="social.html">
+         		<div id="social">
+         			<span>Social Work</span>
+         		</div>
+         	</a>
+         </div>
+	</div>
+</div>
+
+<footer class="panel-footer">
+	<div class="container">
+		<div class="row">
+			<section id="map" class="col-sm-4">
+				<a href="https://www.google.com/maps/place/FPT+University/@10.8522046,106.6296062,16.46z/data=!4m5!3m4!1s0x31752a228e44c0f9:0x213883275b5eff07!8m2!3d10.8528718!4d106.6294349" target="_blank">
+					<div id="map-tile">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5703.9259176267515!2d106.62960624496993!3d10.852204649446048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752a228e44c0f9%3A0x213883275b5eff07!2sFPT+University!5e0!3m2!1sen!2s!4v1512151826598" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+					</div>
+				</a>
+			</section>
+		</div>
+	</div>
+	<div class="text-center">&copy; Copyright Susan Bui 2017 </div>
+</footer>
+<!--<div id="biography">
 <h2 id="about-me">About me</h2>
 <ul>
 	<li>Full name: Bùi Thị Mỹ Tú</li><br>
@@ -43,5 +130,6 @@
 <h2 id="interest">Interest</h2>
 <p>[Updating]</p>
 </div>
+-->
 </body>
 </html>
